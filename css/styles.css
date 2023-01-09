@@ -1,0 +1,179 @@
+@media (max-width: 1028px) {
+   #iphone6 {
+      position: relative;
+      width: 40%;
+      right: auto;
+      margin: auto;
+      transform: rotate(0);
+   }
+   #title {
+      text-align: center;
+   }
+}
+
+body {
+   text-align: center;
+}
+
+h1, h2, h3 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   line-height: 1.5;
+}
+
+.coloured-section {
+   background-color: #FF4C68;
+   color: white;
+}
+
+.white-section {
+   background-color: white;
+}
+
+/* Title Section */
+
+#title {
+   text-align: left;
+}
+
+#iphone6 {
+   transform: rotate(25deg);
+   width: 20%;
+   position: absolute;
+   right: 28%;
+}
+
+.title-heading {
+   font-size: 3.5rem;
+   text-align: left;
+}
+
+.container-fluid {
+   padding: 3% 15% 7%;
+}
+
+/* Navbar */
+
+.navbar {
+   padding-bottom: 4.5rem;
+}
+
+.nav-item {
+   padding: 0 18px;
+}
+
+.navbar-brand {
+   font-size: 2.5rem;
+   font-weight: bold;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link {
+   font-size: 1.2rem;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: lighter;
+}
+
+.download-button {
+   margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+#features-container {
+   position: relative;
+}
+
+.features-row {
+   margin: auto 5%;
+}
+
+.features-col {
+   padding: 7% 10%;
+}
+
+.features-headings {
+   font-size: 1.5rem;
+}
+
+.features-para {
+   color: #8F8F8F;
+   font-size: 1.25rem;
+}
+
+.icon {
+   color: #EF8172;
+   padding-bottom: 1rem;
+}
+
+.icon:hover {
+   color: #FF4C68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+   background-color: #EF8172;
+}
+
+.carousel-item {
+   padding: 7% 15%;
+}
+
+.testimonial-image {
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+}
+
+.testimonial-text {
+   font-size: 3rem;
+}
+
+/* Press Section */
+
+#press {
+   background-color: #EF8172;
+   padding-bottom: 3%;
+}
+
+.press-logo {
+   width: 15%;
+   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+   padding: 100px;
+}
+
+.pricing-column {
+   padding: 3% 2%;
+}
+
+.heading-price {
+   font-size: 3rem;
+}
+
+/* Call To Action Section */
+
+#cta {
+   padding: 7% 15%;
+}
+
+#cta h3 {
+   font-size: 3rem;
+}
+
+/* Footer Section */
+
+#footer {
+   color: grey;
+   padding: 3%;
+}
+
+.footer-icon {
+   margin: 1%;
+   font-size: 2rem;
+}
